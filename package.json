@@ -1,0 +1,19 @@
+{
+  "name": "segundopalo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasGalan10/Segundo-Palo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicolasGalan10/Segundo-Palo/issues"
+  },
+  "homepage": "https://github.com/NicolasGalan10/Segundo-Palo#readme"
+}
