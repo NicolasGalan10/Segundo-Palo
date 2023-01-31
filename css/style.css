@@ -82,12 +82,6 @@ h1 {
   padding-bottom: 2%;
 }
 
-footer {
-  background-color: rgb(124, 29, 29);
-  text-align: center;
-  color: white;
-}
-
 .mainTitulos {
   background-color: rgb(251, 238, 222);
   height: 100vh;
@@ -196,6 +190,12 @@ footer {
 
 .plantelJugadores {
   padding: 4%;
+}
+
+footer {
+  background-color: rgb(124, 29, 29);
+  text-align: center;
+  color: white;
 }
 
 @media only screen and (max-width: 576px) {

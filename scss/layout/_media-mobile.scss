@@ -1,0 +1,78 @@
+@media only screen and (max-width: 576px) {
+	.navBar {
+		li {
+			a {
+				font-size: 20px;
+			}
+		}
+	}
+	.escudoPalo {
+		width: 25vh;
+		height: 25vh;
+	}
+	.mainIndex {
+		h1 {
+			font-size: 32px;
+		}
+		background-color: rgb(251, 238, 222);
+		height: 100vh;
+	}
+	.presentacionSpalo {
+		div {
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 2%;
+			div {
+				h2 {
+					justify-content: center;
+				}
+				h3 {
+					justify-content: center;
+				}
+				p {
+					justify-content: center;
+				}
+			}
+		}
+	}
+	.nuestroPlantel {
+		justify-content: center;
+	}
+	.contenedorPlantel {
+		display: grid;
+		height: 100%;
+		width: 100%;
+		grid-template-columns: repeat(1, auto);
+		grid-template-rows: repeat(1, auto);
+		justify-items: center;
+		justify-content: center;
+	}
+	.escudoPlantel {
+		grid-column: 1 / 2;
+		grid-row: 1 / 2;
+		margin: 0;
+		padding-top: 30%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 80%;
+		opacity: 30%;
+		z-index: 0;
+	}
+	.plantelJugadores {
+		grid-column: 1 / 2;
+		grid-row: 1 / 2;
+		z-index: 1;
+		h2 {
+			font-size: 32px;
+		}
+		h3 {
+			font-size: 26px;
+		}
+		ul {
+			li {
+				font-size: 16px;
+			}
+		}
+	}
+}
