@@ -265,6 +265,63 @@ footer {
   .plantelJugadores ul li {
     font-size: 16px;
   }
+  .mainImagenes {
+    display: flex;
+    flex-direction: column;
+  }
+  .mainImagenes div {
+    padding: 1%;
+  }
+  footer h2 {
+    font-size: 20px;
+  }
+  footer div a img {
+    height: 30px;
+    width: 30px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .navBar li a {
+    font-size: 18px;
+  }
+  .mainImagenes {
+    display: flex;
+    flex-direction: column;
+  }
+  .mainImagenes div {
+    padding: 1%;
+  }
+  footer h2 {
+    font-size: 20px;
+  }
+  footer div a img {
+    height: 30px;
+    width: 30px;
+  }
+  .mainStats {
+    height: 50em;
+  }
+  .mainStats section div h2 {
+    font-size: 32px;
+    margin-bottom: 2%;
+  }
+  .mainStats section div h3 {
+    font-size: 26px;
+  }
+  .mainStats section div ul li {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .mainTitulos h2 {
+    font-size: 19px;
+    text-align: center;
+    line-height: 25px;
+    padding-top: 3%;
+  }
+  .mainTitulos p {
+    font-size: 16px;
+    padding: 2%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
